@@ -1,0 +1,101 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+*:focus {
+  outline: none;
+}
+
+#loginContainer * {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: 1em;
+  box-sizing: border-box;
+}
+
+#loginContainer {
+  width: 80%;
+  margin-left: 10px;
+  margin-top: 10px;
+  position: relative;
+  max-width: 1024px;
+}
+
+#inputContainer {
+  width: 400px;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="email"],
+#inputContainer input[type="password"] {
+  display: block;
+  height: 20px;
+  line-height: 17px;
+  margin-top: 2%;
+  width: 80%;
+}
+
+#inputContainer label {
+  font-size: 13px;
+  margin-top: 15px;
+  display: block;
+}
+
+#inputContainer button {
+  display: block;
+  padding: 2px;
+}
+
+#inputContainer button:hover {
+  cursor: pointer;
+}
+
+.hasAccountText span {
+  font-weight: bold;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.hasAccountText {
+  margin-top: 2%;
+}
+
+#registerForm,
+#loginForm {
+  display: none;
+}
+
+#loginText {
+  padding: 45px;
+  display: table-cell;
+}
+
+#loginText h1 {
+  color: #07d159;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#loginText h2 {
+  margin: 35px 0;
+}
+
+#loginText ul {
+  padding: 0;
+}
+
+#loginText li {
+  font-size: 20px;
+  list-style-type: none;
+  padding: 5px 30px;
+  background: url(../images/icons/checkmark.png) no-repeat 0 0;
+}
+
+#inputContainer .errorMessage {
+  color: red;
+  font-size: 12px;
+  display: block;
+}

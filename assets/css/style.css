@@ -1,0 +1,28 @@
+.welcomeText {
+  text-align: center;
+}
+
+.menuTable {
+  margin: 0 auto;
+}
+
+.menuTable tr {
+  margin: 2%;
+  padding: 2%;
+}
+
+.menuTable td {
+  text-align: center;
+  padding: 2px;
+}
+
+.addToCart {
+  background: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.quantityInput {
+  width: 50%;
+  margin-left: 10px;
+}
